@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Camera Event Detail Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    table {
+      font-family: arial, san-serif;
+      border-collapse: collapse;
+      width: 70%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="margin: 3rem;">
+    <table>
+      <tr>
+        <th>Zone</th>
+        <th>Area</th>
+        <th>Camera</th>
+        <th>Accient Type 1</th>
+        <th>Accient Type 2</th>
+        <th>Accient Type 3</th>
+        <th>Accient Type 4</th>
+        <th>Accient Type 5</th>
+        <th>Accient Type 6</th>
+        <th>Accient Type 7</th>
+        <th>Accient Type 8</th>
+      </tr>
+      <tr>
+        <td id="zone"></td>
+        <td id="area"></td>
+        <td id="camera"></td>
+        <td id="type1"></td>
+        <td id="type2"></td>
+        <td id="type3"></td>
+        <td id="type4"></td>
+        <td id="type5"></td>
+        <td id="type6"></td>
+        <td id="type7"></td>
+        <td id="type8"></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+<script type="text/javascript">
+  //var urlParams = new URLSearchParams(window.location.search);
+  document.getElementById('zone') = 5;//urlParams.get('zone');
+  document.getElementById('area') = 3;//urlParams.get('area');
+  document.getElementById('camera') = 9;//urlParams.get('camera');
+  document.getElementById('type1') = 6;//urlParams.get('type1');
+  document.getElementById('type2') = 0;//urlParams.get('type2');
+  document.getElementById('type3') = 1;//urlParams.get('type3');
+  document.getElementById('type4') = 7;//urlParams.get('type4');
+  document.getElementById('type5') = 8;//urlParams.get('type5');
+  document.getElementById('type6') = 4;//urlParams.get('type6');
+  document.getElementById('type7') = 0;//urlParams.get('type7');
+  document.getElementById('type8') = 1;//urlParams.get('type8');
+
+</script>
+
+</html>
